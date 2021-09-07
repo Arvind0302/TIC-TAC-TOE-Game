@@ -1,0 +1,111 @@
+body{
+background-color:#232323;
+margin: 0;
+font-family: "Montserrat", "Avenir";
+}
+
+h1{
+  text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#game {
+	font-size: 200%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: #232323;
+  margin-bottom:0;
+}
+
+#message {
+	display: inline-block;
+	width: 30%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#start , #mode{
+  height: 100%;
+	font-weight: 700;
+	color: steelblue;
+  padding: 0;
+  font-size: 20px;
+}
+
+#Select_mode , #Select_start{
+  width: 120px;
+  height: 100%;
+  outline: none;
+  font-weight: bold;
+}
+
+#Select_start{
+  width: 100px;
+}
+
+td{
+  font-size: 70px;
+  text-align: center;
+  color:#232323;
+  width:90px;
+  height:110px;
+  border-radius: 20% ;
+  background-color: #b7bbc9;
+  border: 5px solid #232323
+}
+.container{
+  display: flex;
+  align-items: flex-start;
+}
+.score{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 50px;
+  align-self: flex-start;
+  visibility: hidden;
+}
+.points{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+table{
+  margin:15px auto;
+}
+
+button{
+  position: absolute;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  padding: 6.5px 20px;
+  background: #e7e7e7;
+  color: black;
+}
+#reset{
+  left: 37%;
+}
+#new{
+  left: 52%;
+}
+
+button:hover {
+ background-color: white;
+ color: black;
+ border: 3px solid steelblue;
+}
+td:hover{
+  border: 2px solid steelblue;
+}

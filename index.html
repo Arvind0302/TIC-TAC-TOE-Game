@@ -1,0 +1,67 @@
+
+<html>
+<head>
+  <title>Tic tac toe</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <h1>
+	  <div id="game">TIC-TAC-TOE</div>
+	  (The battle of O and X)
+  </h1>
+
+  <div id="stripe">
+    <span id="mode">
+      <label for="mode">GAME MODE :</label>
+      <select name="mode" id="Select_mode">
+         <option value="0">--select mode--</option>
+         <option value="Multiplayer">Multiplayer</option>
+         <option value="Single-player">Single-player</option>
+      </select>
+    </span>
+    <span id="message">Select game mode and symbol</span>
+     <span id="start">
+       <label for="start">START WITH :</label>
+       <select name="start" id="Select_start">
+        <option value="0">--choose--</option>
+        <option value="X">X</option>
+        <option value="O">O</option>
+       </select>
+     </span>
+  </div>
+
+<div class="container">
+  <div class="score">
+    <h2 id="player1">Player 1 score : </h2>
+    <span id="score1" class="points">0</span>
+  </div>
+  <table>
+    <tr>
+      <td id="0"></td>
+      <td id="1"></td>
+      <td id="2"></td>
+    </tr>
+    <tr>
+      <td id="3"></td>
+      <td id="4"></td>
+      <td id="5"></td>
+    </tr>
+    <tr>
+      <td id="6"></td>
+      <td id="7"></td>
+      <td id="8"></td>
+    </tr>
+  </table>
+  <div class="score" >
+    <h2 id="player2">Player 2 score : </h2>
+    <span id="score2" class="points">0</span>
+  </div>
+</div>
+
+<button type="button" name="reset" id="reset"> RESET BOARD</button>
+<button type="button" name="New game" id="new"> NEW GAME </button>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
